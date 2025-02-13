@@ -11,8 +11,8 @@ This repository contains the activities I completed as part of the **"Functions"
 - Using the given function `calculaIdade`, I used the **call** and **apply** methods to modify the value of `this`.  
 - I created custom objects to test and understand how `this` behaves in different contexts.
 
-function calculaIdade(anos) {
-	return `Daqui a ${anos} anos, ${this.nome} terá ${
-		this.idade + anos
-	} anos de idade.`;
-}  
+function calculateAge(years) {  
+    return `In ${years} years, ${this.name} will be ${  
+        this.age + years  
+    } years old.`;  
+}     
